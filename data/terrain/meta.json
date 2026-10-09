@@ -1,0 +1,15 @@
+{
+ "region": [
+  91.655,
+  26.15,
+  91.735,
+  26.235
+ ],
+ "zooms": [
+  10,
+  14
+ ],
+ "step": 5,
+ "index": 25,
+ "source": "Copernicus DEM GLO-30 (\u00a9 DLR e.V., \u00a9 Airbus Defence and Space; provided under COPERNICUS by the EU and ESA)"
+}

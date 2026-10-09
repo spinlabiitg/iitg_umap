@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IITG Campus uMap · Poster</title>
+  <meta name="description" content="A printable poster of the IITG Campus uMap, an unofficial map of the IIT Guwahati campus.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Fredoka:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="css/poster.css" rel="stylesheet">
+  <style id="page-size"></style>
+</head>
+<body>
+  <header class="bar">
+    <a class="back" href="index.html">← Map</a>
+    <strong>Poster</strong>
+    <div class="group" role="group" aria-label="Paper size">
+      <button data-paper="A4">A4</button><button data-paper="A3">A3</button><button data-paper="A2">A2</button>
+    </div>
+    <div class="group" role="group" aria-label="Orientation">
+      <button data-orient="landscape">Landscape</button><button data-orient="portrait">Portrait</button>
+    </div>
+    <div class="group" role="group" aria-label="Theme">
+      <button data-theme-btn="light">Light</button><button data-theme-btn="dark">Dark</button><button data-theme-btn="cartoon">🎨 Cartoon</button>
+    </div>
+    <span class="spacer"></span>
+    <label class="dpi">PNG
+      <select id="dpi" aria-label="PNG resolution"><option value="150">150 dpi</option><option value="300" selected>300 dpi</option></select>
+    </label>
+    <button id="png" class="primary">⬇ Download PNG</button>
+    <button id="print" class="primary">🖨 Print / PDF</button>
+  </header>
+  <main id="stage"><p class="loading">Drawing the campus…</p></main>
+  <script type="module" src="js/poster.js"></script>
+</body>
+</html>

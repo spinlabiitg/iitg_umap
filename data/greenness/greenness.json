@@ -1,0 +1,88 @@
+{
+ "years": [
+  2020,
+  2024
+ ],
+ "region": [
+  91.655,
+  26.15,
+  91.735,
+  26.235
+ ],
+ "composite": "per-pixel 75th percentile of each month's cloud-masked views",
+ "source": "Sentinel-2 L2A, contains modified Copernicus Sentinel data 2020-2024, via Microsoft Planetary Computer",
+ "months": [
+  {
+   "month": 1,
+   "views": 68,
+   "campus": 0.437,
+   "around": 0.386
+  },
+  {
+   "month": 2,
+   "views": 45,
+   "campus": 0.394,
+   "around": 0.354
+  },
+  {
+   "month": 3,
+   "views": 70,
+   "campus": 0.449,
+   "around": 0.398
+  },
+  {
+   "month": 4,
+   "views": 50,
+   "campus": 0.579,
+   "around": 0.539
+  },
+  {
+   "month": 5,
+   "views": 40,
+   "campus": 0.646,
+   "around": 0.583
+  },
+  {
+   "month": 6,
+   "views": 17,
+   "campus": 0.724,
+   "around": 0.567
+  },
+  {
+   "month": 7,
+   "views": 17,
+   "campus": 0.744,
+   "around": 0.673
+  },
+  {
+   "month": 8,
+   "views": 22,
+   "campus": 0.785,
+   "around": 0.724
+  },
+  {
+   "month": 9,
+   "views": 35,
+   "campus": 0.748,
+   "around": 0.701
+  },
+  {
+   "month": 10,
+   "views": 45,
+   "campus": 0.701,
+   "around": 0.661
+  },
+  {
+   "month": 11,
+   "views": 49,
+   "campus": 0.693,
+   "around": 0.646
+  },
+  {
+   "month": 12,
+   "views": 62,
+   "campus": 0.591,
+   "around": 0.528
+  }
+ ]
+}

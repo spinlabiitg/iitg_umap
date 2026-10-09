@@ -1,0 +1,1619 @@
+{
+ "version": 1,
+ "revision": 8,
+ "places": [
+  {
+   "id": "academic-complex",
+   "name": "Academic Complex",
+   "category": "academic",
+   "description": "The academic heart of campus: a long chain of connected 'Core' blocks housing most departments, labs and faculty offices.",
+   "lnglat": [
+    91.691548,
+    26.185965
+   ],
+   "status": "from_osm",
+   "feature": "way/121451174"
+  },
+  {
+   "id": "rnd-building",
+   "name": "RnD Building",
+   "category": "admin",
+   "lnglat": [
+    91.689146,
+    26.185051
+   ],
+   "status": "tagged",
+   "feature": "way/912248055"
+  },
+  {
+   "id": "lecture-halls",
+   "name": "Lecture Hall Complex",
+   "category": "academic",
+   "description": "Large lecture theatres where most first-year courses are taught.",
+   "aliases": [
+    "LH",
+    "Lecture Theatres"
+   ],
+   "lnglat": [
+    91.691444,
+    26.18901
+   ],
+   "status": "from_osm",
+   "feature": "way/684576024"
+  },
+  {
+   "id": "library",
+   "name": "Lakshminath Bezbaroa Central Library",
+   "category": "academic",
+   "description": "Four-storey central library. Self-service RFID kiosks for issue and return.",
+   "aliases": [
+    "LNBC Library",
+    "Central Library"
+   ],
+   "url": "https://www.iitg.ac.in/lib/",
+   "hours": "08:00–02:00 (24×7 during exams)",
+   "lnglat": [
+    91.692917,
+    26.189424
+   ],
+   "status": "tagged",
+   "feature": "way/121451155"
+  },
+  {
+   "id": "ccc",
+   "name": "Computer & Communication Centre",
+   "category": "academic",
+   "description": "Runs campus internet, Wi-Fi, email and the phone network; open lab with desktop machines.",
+   "aliases": [
+    "CCC",
+    "Computer Centre"
+   ],
+   "url": "https://www.iitg.ac.in/cc/",
+   "hours": "08:00–00:00",
+   "lnglat": [
+    91.6929648,
+    26.1893128
+   ],
+   "status": "from_osm",
+   "feature": "node/4584953590"
+  },
+  {
+   "id": "cet",
+   "name": "Centre for Educational Technology",
+   "category": "academic",
+   "url": "https://www.iitg.ac.in/cet/",
+   "lnglat": [
+    91.692164,
+    26.1873995
+   ],
+   "status": "from_osm",
+   "feature": "node/12948811601"
+  },
+  {
+   "id": "workshop",
+   "name": "Mechanical Workshop",
+   "category": "academic",
+   "description": "Central workshop for hands-on manufacturing labs.",
+   "lnglat": [
+    91.689545,
+    26.187118
+   ],
+   "status": "from_osm",
+   "feature": "way/517935377"
+  },
+  {
+   "id": "auditorium",
+   "name": "Bhupen Hazarika Auditorium",
+   "category": "academic",
+   "description": "Main auditorium for convocations, talks and cultural nights. Named after the legendary Assamese musician.",
+   "lnglat": [
+    91.693042,
+    26.19102
+   ],
+   "status": "from_osm",
+   "feature": "way/144431212"
+  },
+  {
+   "id": "conference-hall",
+   "name": "Conference Hall",
+   "category": "academic",
+   "lnglat": [
+    91.692443,
+    26.191098
+   ],
+   "status": "from_osm",
+   "feature": "way/684576023"
+  },
+  {
+   "id": "cif",
+   "name": "Central Instruments Facility",
+   "category": "academic",
+   "description": "Shared high-end research instruments.",
+   "url": "https://www.iitg.ac.in/cif",
+   "lnglat": [
+    91.690443,
+    26.185729
+   ],
+   "status": "tagged",
+   "feature": "g/26.18571,91.69046"
+  },
+  {
+   "id": "tic",
+   "name": "Technology Incubation Centre",
+   "category": "admin",
+   "description": "Home for startups incubated at IITG.",
+   "url": "https://tic.iitg.ac.in/",
+   "lnglat": [
+    91.702554,
+    26.193033
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "research-park",
+   "name": "IITG Research Park",
+   "category": "admin",
+   "url": "https://respark.iitg.ac.in/",
+   "lnglat": [
+    91.687471,
+    26.184042
+   ],
+   "status": "tagged",
+   "hint": "Adjacent to campus, possibly just outside the boundary",
+   "feature": "draw/mv15l0yf"
+  },
+  {
+   "id": "ccd-career",
+   "name": "Centre for Career Development",
+   "category": "admin",
+   "description": "Placements and internships office.",
+   "aliases": [
+    "CCD (placements)"
+   ],
+   "url": "http://www.iitg.ac.in/ccd/",
+   "lnglat": [
+    91.692005,
+    26.189914
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "dept-bsbe",
+   "name": "Department of Biosciences & Bioengineering",
+   "category": "academic",
+   "short": "BSBE",
+   "subcategory": "department",
+   "established": 2002,
+   "hint": "Inside the Academic Complex — which Core block / floor?",
+   "lnglat": [
+    91.691865,
+    26.185364
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "dept-che",
+   "name": "Department of Chemical Engineering",
+   "category": "academic",
+   "short": "CL",
+   "subcategory": "department",
+   "established": 2002,
+   "hint": "Inside the Academic Complex — which Core block / floor?",
+   "lnglat": [
+    91.691105,
+    26.185135
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "dept-chem",
+   "name": "Department of Chemistry",
+   "category": "academic",
+   "short": "CH",
+   "subcategory": "department",
+   "established": 1995,
+   "hint": "Inside the Academic Complex — which Core block / floor?",
+   "lnglat": [
+    91.691832,
+    26.185829
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "dept-ce",
+   "name": "Department of Civil Engineering",
+   "category": "academic",
+   "short": "CE",
+   "subcategory": "department",
+   "established": 1997,
+   "hint": "Inside the Academic Complex — which Core block / floor?",
+   "lnglat": [
+    91.691813,
+    26.184742
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "dept-cse",
+   "name": "Department of Computer Science & Engineering",
+   "category": "academic",
+   "short": "CSE",
+   "subcategory": "department",
+   "established": 1995,
+   "hint": "Inside the Academic Complex — which Core block / floor?",
+   "lnglat": [
+    91.691896,
+    26.187035
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "dept-design",
+   "name": "Department of Design",
+   "category": "academic",
+   "short": "DoD",
+   "subcategory": "department",
+   "hint": "Inside the Academic Complex — which Core block / floor?",
+   "lnglat": [
+    91.691848,
+    26.18777
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "dept-eee",
+   "name": "Department of Electronics & Electrical Engineering",
+   "category": "academic",
+   "short": "EEE",
+   "subcategory": "department",
+   "established": 1995,
+   "hint": "Inside the Academic Complex — which Core block / floor?",
+   "lnglat": [
+    91.691831,
+    26.186568
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "dept-hss",
+   "name": "Department of Humanities & Social Sciences",
+   "category": "academic",
+   "short": "HSS",
+   "subcategory": "department",
+   "hint": "Inside the Academic Complex — which Core block / floor?",
+   "lnglat": [
+    91.691153,
+    26.186615
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "dept-math",
+   "name": "Department of Mathematics",
+   "category": "academic",
+   "short": "MA",
+   "subcategory": "department",
+   "hint": "Inside the Academic Complex — which Core block / floor?",
+   "lnglat": [
+    91.691139,
+    26.187074
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "dept-me",
+   "name": "Department of Mechanical Engineering",
+   "category": "academic",
+   "short": "ME",
+   "subcategory": "department",
+   "hint": "Inside the Academic Complex — which Core block / floor?",
+   "lnglat": [
+    91.691356,
+    26.187568
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "dept-phy",
+   "name": "Department of Physics",
+   "category": "academic",
+   "short": "PH",
+   "subcategory": "department",
+   "hint": "Inside the Academic Complex — which Core block / floor?",
+   "lnglat": [
+    91.691153,
+    26.18474
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "school-sart",
+   "name": "School of Agro and Rural Technology",
+   "category": "academic",
+   "subcategory": "school",
+   "url": "https://iitg.ac.in/iitg_academic?aca=school-of-agro-and-rural-technology",
+   "lnglat": [
+    91.692609,
+    26.187278
+   ],
+   "status": "tagged",
+   "feature": "g/26.18725,91.69255"
+  },
+  {
+   "id": "school-sob",
+   "name": "School of Business",
+   "category": "academic",
+   "subcategory": "school",
+   "url": "https://iitg.ac.in/iitg_academic?aca=school-of-business",
+   "lnglat": [
+    91.692553,
+    26.187268
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "school-siss",
+   "name": "School of Interdisciplinary Studies and Sustainability",
+   "category": "academic",
+   "subcategory": "school",
+   "url": "https://iitg.ac.in/iitg_academic?aca=school-of-interdisciplinary-studies-and-sustainability",
+   "lnglat": [
+    91.691097,
+    26.18543
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "school-msdsai",
+   "name": "Mehta Family School of Data Science & AI",
+   "category": "academic",
+   "subcategory": "school",
+   "url": "https://iitg.ac.in/iitg_academic?aca=mehta-family-school-of-data-science-and-artificial-intelligence",
+   "lnglat": [
+    91.690378,
+    26.186468
+   ],
+   "status": "tagged",
+   "feature": "g/26.18643,91.69053"
+  },
+  {
+   "id": "school-sese",
+   "name": "School of Energy Science and Engineering",
+   "category": "academic",
+   "subcategory": "school",
+   "url": "https://iitg.ac.in/iitg_academic?aca=school-of-energy-sciences-and-engineering",
+   "lnglat": [
+    91.691168,
+    26.185838
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "school-shst",
+   "name": "Jyoti & Bhupat Mehta School of Health Sciences & Technology",
+   "category": "academic",
+   "subcategory": "school",
+   "url": "https://iitg.ac.in/iitg_academic?aca=school-of-health-science-and-technology",
+   "lnglat": [
+    91.688911,
+    26.186678
+   ],
+   "status": "tagged",
+   "feature": "g/26.18667,91.68906"
+  },
+  {
+   "id": "centre-iks",
+   "name": "Centre for Indian Knowledge Systems",
+   "category": "academic",
+   "subcategory": "centre",
+   "url": "https://iitg.ac.in/iitg_academic?aca=centre-for-indian-knowledge-system",
+   "lnglat": [
+    91.690462,
+    26.186621
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "centre-clst",
+   "name": "Centre for Linguistic Science and Technology",
+   "category": "academic",
+   "subcategory": "centre",
+   "url": "https://iitg.ac.in/iitg_academic?aca=centre-for-linguistic-science-and-technology",
+   "lnglat": [
+    91.693095,
+    26.189406
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "centre-manekshaw",
+   "name": "Manekshaw Centre of Excellence for National Security Studies",
+   "category": "academic",
+   "subcategory": "centre",
+   "url": "https://iitg.ac.in/iitg_academic?aca=manekshaw-centre-of-excellence-for-national-security-studies-and-research",
+   "lnglat": [
+    91.690278,
+    26.186477
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "centre-nano",
+   "name": "Centre for Nanotechnology",
+   "category": "academic",
+   "subcategory": "centre",
+   "url": "https://iitg.ac.in/iitg_academic?aca=centre-for-nanotechnology",
+   "lnglat": [
+    91.688956,
+    26.186622
+   ],
+   "status": "tagged",
+   "hint": "Opposite Core 5 (new building, opened Nov 2021)"
+  },
+  {
+   "id": "hostel-manas",
+   "name": "Manas Hostel",
+   "category": "hostel",
+   "description": "One of the oldest boys' hostels, with a leafy courtyard and a long alumni legacy.",
+   "url": "https://iitg.ac.in/freshers/hostel-list",
+   "established": 1995,
+   "residents": "Boys",
+   "capacity": 300,
+   "lnglat": [
+    91.699763,
+    26.188749
+   ],
+   "status": "from_osm",
+   "feature": "way/121455439"
+  },
+  {
+   "id": "hostel-dihing",
+   "name": "Dihing Hostel",
+   "category": "hostel",
+   "description": "Next door to Brahmaputra; famous for its own football league.",
+   "url": "https://iitg.ac.in/freshers/hostel-list",
+   "established": 2000,
+   "residents": "Boys",
+   "capacity": 500,
+   "lnglat": [
+    91.699349,
+    26.187936
+   ],
+   "status": "from_osm",
+   "feature": "way/121455426"
+  },
+  {
+   "id": "hostel-kapili",
+   "name": "Kapili Hostel",
+   "category": "hostel",
+   "description": "A mostly-undergrad hostel with its own juice centre and music room.",
+   "url": "https://iitg.ac.in/freshers/hostel-list",
+   "established": 2003,
+   "residents": "Boys",
+   "capacity": 300,
+   "lnglat": [
+    91.696228,
+    26.18851
+   ],
+   "status": "from_osm",
+   "feature": "way/121455436"
+  },
+  {
+   "id": "hostel-siang",
+   "name": "Siang Hostel",
+   "category": "hostel",
+   "description": "UG-only hostel tucked beside a green hill and a small lake — great sunsets.",
+   "url": "https://iitg.ac.in/freshers/hostel-list",
+   "established": 2003,
+   "residents": "Boys",
+   "capacity": 300,
+   "lnglat": [
+    91.696552,
+    26.189308
+   ],
+   "status": "from_osm",
+   "feature": "way/121455432"
+  },
+  {
+   "id": "hostel-subansiri",
+   "name": "Subansiri Hostel",
+   "category": "hostel",
+   "description": "The first girls' hostel on campus, home to UG, PG and research students.",
+   "url": "https://iitg.ac.in/freshers/hostel-list",
+   "established": 2003,
+   "residents": "Girls",
+   "capacity": 500,
+   "lnglat": [
+    91.694817,
+    26.192785
+   ],
+   "status": "from_osm",
+   "feature": "way/121455433"
+  },
+  {
+   "id": "hostel-kameng",
+   "name": "Kameng Hostel",
+   "category": "hostel",
+   "description": "Five blocks, four in-hostel grounds and a much-loved canteen.",
+   "url": "https://iitg.ac.in/freshers/hostel-list",
+   "established": 2005,
+   "residents": "Boys",
+   "capacity": 504,
+   "lnglat": [
+    91.701424,
+    26.19051
+   ],
+   "status": "from_osm",
+   "feature": "way/121455427"
+  },
+  {
+   "id": "hostel-umiam",
+   "name": "Umiam Hostel",
+   "category": "hostel",
+   "description": "Mixes UG, PG and PhD residents under one roof.",
+   "url": "https://iitg.ac.in/freshers/hostel-list",
+   "established": 2008,
+   "residents": "Boys",
+   "capacity": 430,
+   "lnglat": [
+    91.701864,
+    26.188639
+   ],
+   "status": "from_osm",
+   "feature": "way/121455441"
+  },
+  {
+   "id": "hostel-barak",
+   "name": "Barak Hostel",
+   "category": "hostel",
+   "description": "Four-time General Championship winners.",
+   "url": "https://iitg.ac.in/freshers/hostel-list",
+   "established": 2011,
+   "residents": "Boys",
+   "capacity": 430,
+   "lnglat": [
+    91.70156,
+    26.189698
+   ],
+   "status": "from_osm",
+   "feature": "way/405811283"
+  },
+  {
+   "id": "hostel-brahmaputra",
+   "name": "Brahmaputra Hostel",
+   "category": "hostel",
+   "description": "The biggest hostel on campus, home to nearly a thousand students.",
+   "url": "https://iitg.ac.in/freshers/hostel-list",
+   "established": 2011,
+   "residents": "Boys",
+   "capacity": 1000,
+   "lnglat": [
+    91.699522,
+    26.186497
+   ],
+   "status": "from_osm",
+   "feature": "way/368852086"
+  },
+  {
+   "id": "hostel-dhansiri",
+   "name": "Dhansiri Hostel",
+   "category": "hostel",
+   "description": "White building beside the sports field, a short walk from the New SAC and the hospital.",
+   "url": "https://iitg.ac.in/freshers/hostel-list",
+   "established": 2014,
+   "residents": "Girls",
+   "capacity": 230,
+   "lnglat": [
+    91.698283,
+    26.194189
+   ],
+   "status": "from_osm",
+   "feature": "way/912248050"
+  },
+  {
+   "id": "hostel-lohit",
+   "name": "Lohit Hostel",
+   "category": "hostel",
+   "description": "Big canteen, a huge terrace and four in-hostel grounds.",
+   "url": "https://iitg.ac.in/freshers/hostel-list",
+   "established": 2014,
+   "residents": "Boys",
+   "capacity": 800,
+   "lnglat": [
+    91.698594,
+    26.189362
+   ],
+   "status": "from_osm",
+   "feature": "way/640770642"
+  },
+  {
+   "id": "hostel-msh",
+   "name": "Married Scholars Hostel",
+   "category": "hostel",
+   "description": "Family housing for married PhD and Master's students, with play areas and lawns.",
+   "url": "https://iitg.ac.in/freshers/hostel-list",
+   "established": 2012,
+   "residents": "Married scholars",
+   "capacity": 170,
+   "lnglat": [
+    91.698383,
+    26.19518
+   ],
+   "status": "from_osm",
+   "feature": "way/1236294853"
+  },
+  {
+   "id": "hostel-disang",
+   "name": "Disang Hostel",
+   "category": "hostel",
+   "description": "Large, modern hostel for 1000+ residents with its own gym and juice centre.",
+   "url": "https://iitg.ac.in/freshers/hostel-list",
+   "established": 2019,
+   "residents": "Girls",
+   "capacity": 1000,
+   "lnglat": [
+    91.696634,
+    26.1866
+   ],
+   "status": "from_osm",
+   "feature": "way/912248048"
+  },
+  {
+   "id": "hostel-gaurang",
+   "name": "Gaurang Hostel",
+   "category": "hostel",
+   "description": "The newest hostel, right in front of Kameng.",
+   "url": "https://iitg.ac.in/freshers/hostel-list",
+   "established": 2024,
+   "residents": "Boys",
+   "capacity": 500,
+   "lnglat": [
+    91.700962,
+    26.191917
+   ],
+   "status": "from_osm",
+   "feature": "way/1336870219"
+  },
+  {
+   "id": "hostel-dibang",
+   "name": "Dibang Hostel",
+   "category": "hostel",
+   "url": "https://iitg.ac.in/freshers/hostel-list",
+   "lnglat": [
+    91.696512,
+    26.18759
+   ],
+   "status": "from_osm",
+   "feature": "way/455100471"
+  },
+  {
+   "id": "hospital",
+   "name": "IITG Hospital",
+   "category": "facility",
+   "description": "24×7 campus hospital with emergency room, pharmacy, visiting specialists and two ambulances.",
+   "url": "https://www.iitg.ac.in/medical/",
+   "hours": "24×7",
+   "lnglat": [
+    91.697476,
+    26.196652
+   ],
+   "status": "from_osm",
+   "feature": "way/684576018"
+  },
+  {
+   "id": "guest-house-1",
+   "name": "Guest House-1",
+   "category": "facility",
+   "description": "Rooms for visitors and guests of the institute.",
+   "url": "https://www.iitg.ac.in/aer/index_page_details.php?page=0009&title=guest-house-booking",
+   "lnglat": [
+    91.695807,
+    26.195746
+   ],
+   "status": "tagged",
+   "feature": "way/121451145"
+  },
+  {
+   "id": "guest-house-2",
+   "name": "Guest House-2",
+   "category": "facility",
+   "lnglat": [
+    91.696116,
+    26.196913
+   ],
+   "status": "tagged",
+   "feature": "way/684576019"
+  },
+  {
+   "id": "sac",
+   "name": "Old SAC",
+   "category": "sports",
+   "description": "Indoor sports — badminton, TT, squash, chess, weightlifting — plus an ATM close to the hostels.",
+   "aliases": [
+    "SAC"
+   ],
+   "lnglat": [
+    91.695868,
+    26.193146
+   ],
+   "status": "from_osm",
+   "feature": "way/158011014"
+  },
+  {
+   "id": "new-sac",
+   "name": "New SAC",
+   "category": "sports",
+   "description": "Clubs, gyms and student activities.",
+   "aliases": [
+    "New SAC"
+   ],
+   "lnglat": [
+    91.699015,
+    26.192481
+   ],
+   "status": "from_osm",
+   "feature": "way/267002635"
+  },
+  {
+   "id": "gym",
+   "name": "Central Gym",
+   "category": "sports",
+   "description": "Open to all; there is also a separate women's gym in SAC.",
+   "lnglat": [
+    91.697829,
+    26.19108
+   ],
+   "status": "from_osm",
+   "feature": "way/640776537"
+  },
+  {
+   "id": "pool",
+   "name": "Swimming Pool",
+   "category": "sports",
+   "description": "8-lane, 50 m pool. Needs a separate registration and pool card.",
+   "lnglat": [
+    91.699285,
+    26.191928
+   ],
+   "status": "tagged",
+   "feature": "g/26.19188,91.69928"
+  },
+  {
+   "id": "sports-field",
+   "name": "SAC Grounds",
+   "category": "sports",
+   "description": "Floodlit fields for football, hockey, volleyball and more, open till 9 PM. Borrow kit at the SAC desk with your ID.",
+   "lnglat": [
+    91.697932,
+    26.192953
+   ],
+   "status": "from_osm",
+   "feature": "way/144431213"
+  },
+  {
+   "id": "small-cricket-ground",
+   "name": "Small Cricket Ground",
+   "category": "sports",
+   "lnglat": [
+    91.702213,
+    26.19506
+   ],
+   "status": "from_osm",
+   "feature": "way/1434855471"
+  },
+  {
+   "id": "food-court",
+   "name": "Food Court",
+   "category": "food",
+   "description": "The go-to hangout: Subway, Baskin Robbins, Fat Belly, Urban Tadka, Big Byte Bakery and more under one roof.",
+   "lnglat": [
+    91.699328,
+    26.192432
+   ],
+   "status": "from_osm",
+   "feature": "way/363651727"
+  },
+  {
+   "id": "kfc",
+   "name": "KFC",
+   "category": "food",
+   "description": "Red container kiosk with open-air seating.",
+   "hint": "Near Brahmaputra and Dihing hostels",
+   "lnglat": [
+    91.700038,
+    26.187768
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "dominos",
+   "name": "Domino's",
+   "category": "food",
+   "description": "Blue container outlet with red umbrellas and open-air seating.",
+   "lnglat": [
+    91.69997,
+    26.187703
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "ccd-cafe",
+   "name": "Café Coffee Day",
+   "category": "food",
+   "description": "Coffee stop near the academic area.",
+   "lnglat": [
+    91.6926804,
+    26.1895236
+   ],
+   "status": "from_osm",
+   "feature": "node/4715488480"
+  },
+  {
+   "id": "lake-view-canteen",
+   "name": "Lake View Canteen",
+   "category": "food",
+   "description": "Chai and snacks.",
+   "lnglat": [
+    91.694894,
+    26.1893427
+   ],
+   "status": "from_osm",
+   "feature": "node/11475714404"
+  },
+  {
+   "id": "khokha",
+   "name": "Khokha Market",
+   "category": "food",
+   "description": "Cheap, tasty local food plus cycle repair, courier and salons — a campus institution.",
+   "hint": "Near the Faculty Gate",
+   "lnglat": [
+    91.700974,
+    26.185707
+   ],
+   "status": "tagged",
+   "feature": "draw/muytzf3x"
+  },
+  {
+   "id": "market-complex",
+   "name": "Market Complex",
+   "category": "services",
+   "description": "Groceries, pharmacy, salon, computer repair, a restaurant and an ICICI Bank branch with ATM.",
+   "aliases": [
+    "Shopping Complex"
+   ],
+   "hint": "Near the Main Gate",
+   "lnglat": [
+    91.687894,
+    26.194991
+   ],
+   "status": "from_osm",
+   "feature": "way/121455959"
+  },
+  {
+   "id": "sbi",
+   "name": "State Bank of India",
+   "category": "services",
+   "description": "Branch and ATM near the Academic Complex.",
+   "lnglat": [
+    91.6921473,
+    26.189805
+   ],
+   "status": "from_osm",
+   "feature": "node/6414070195"
+  },
+  {
+   "id": "canara",
+   "name": "Canara Bank",
+   "category": "services",
+   "description": "Branch and ATM near the Academic Complex.",
+   "lnglat": [
+    91.692132,
+    26.1897947
+   ],
+   "status": "from_osm",
+   "feature": "node/6414070196"
+  },
+  {
+   "id": "post-office",
+   "name": "Post Office",
+   "category": "services",
+   "description": "Send parcels and book train tickets without leaving campus.",
+   "hint": "Near the KV Gate",
+   "lnglat": [
+    91.696148,
+    26.183518
+   ],
+   "status": "tagged",
+   "feature": "way/912248058"
+  },
+  {
+   "id": "cycle-repair",
+   "name": "Cycle Repair Shop",
+   "category": "services",
+   "lnglat": [
+    91.6939425,
+    26.1892993
+   ],
+   "status": "from_osm",
+   "feature": "node/11475714403"
+  },
+  {
+   "id": "admin",
+   "name": "Administrative Building",
+   "category": "admin",
+   "description": "Director's office, registrar and most admin sections.",
+   "lnglat": [
+    91.692079,
+    26.190166
+   ],
+   "status": "from_osm",
+   "feature": "way/121451183"
+  },
+  {
+   "id": "pms",
+   "name": "Planning and Management Section",
+   "category": "admin",
+   "lnglat": [
+    91.694648,
+    26.188962
+   ],
+   "status": "from_osm",
+   "feature": "way/912248052"
+  },
+  {
+   "id": "main-gate",
+   "name": "Main Gate",
+   "category": "gate",
+   "lnglat": [
+    91.687399,
+    26.196153
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "faculty-gate",
+   "name": "Faculty Gate",
+   "category": "gate",
+   "lnglat": [
+    91.700941,
+    26.186523
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "kv-gate",
+   "name": "KV Gate",
+   "category": "gate",
+   "lnglat": [
+    91.696089,
+    26.183319
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "bus-stop",
+   "name": "City Bus Stop",
+   "category": "gate",
+   "description": "Institute buses to and from Guwahati city.",
+   "hint": "Check: OSM calls this 'IIT to PB firststop'",
+   "lnglat": [
+    91.697398,
+    26.1960159
+   ],
+   "status": "from_osm",
+   "feature": "node/4701291692"
+  },
+  {
+   "id": "kv",
+   "name": "Kendriya Vidyalaya IIT Guwahati",
+   "category": "residential",
+   "lnglat": [
+    91.696652,
+    26.18425
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "akshara",
+   "name": "Akshara Pre-Primary School",
+   "category": "residential",
+   "url": "http://www.iitg.ac.in/akshara",
+   "lnglat": [
+    91.697245,
+    26.184173
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "transit-complex",
+   "name": "Transit Complex",
+   "category": "residential",
+   "lnglat": [
+    91.701847,
+    26.193083
+   ],
+   "status": "from_osm",
+   "feature": "way/121451168"
+  },
+  {
+   "id": "admin-lake",
+   "name": "Admin Lake",
+   "category": "nature",
+   "lnglat": [
+    91.694605,
+    26.190308
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "guest-house-lake",
+   "name": "Guest House Lake",
+   "category": "nature",
+   "lnglat": [
+    91.696692,
+    26.194826
+   ],
+   "status": "from_osm",
+   "feature": "way/144431216"
+  },
+  {
+   "id": "serpentine",
+   "name": "Serpentine Lake",
+   "category": "nature",
+   "description": "A long winding lake in the north of campus.",
+   "lnglat": [
+    91.694392,
+    26.198003
+   ],
+   "status": "from_osm",
+   "feature": "relation/2336605"
+  },
+  {
+   "id": "childrens-park",
+   "name": "Children's Park",
+   "category": "nature",
+   "lnglat": [
+    91.69487,
+    26.198606
+   ],
+   "status": "from_osm",
+   "feature": "way/684566615"
+  },
+  {
+   "id": "brahmaputra-view",
+   "name": "Brahmaputra Riverfront",
+   "category": "nature",
+   "description": "Sunset point along the river on the southern edge of campus.",
+   "lnglat": [
+    91.696623,
+    26.181968
+   ],
+   "status": "tagged"
+  },
+  {
+   "id": "rhino-circle",
+   "name": "Rhino Circle",
+   "category": "landmark",
+   "description": "The famous Rhino (with its baby) circle of IITG.",
+   "lnglat": [
+    91.688699,
+    26.195161
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "cycle-shop-1",
+   "name": "Cycle Shop-1",
+   "category": "services",
+   "lnglat": [
+    91.688248,
+    26.194838
+   ],
+   "status": "tagged",
+   "user_added": true,
+   "feature": "g/26.19482,91.68827"
+  },
+  {
+   "id": "bike-car-tire-repair",
+   "name": "Bike/Car Tire Repair",
+   "category": "services",
+   "description": "Fix bike, car tyre puncture",
+   "lnglat": [
+    91.688165,
+    26.194908
+   ],
+   "status": "tagged",
+   "user_added": true,
+   "feature": "g/26.19485,91.68818"
+  },
+  {
+   "id": "directors-bungalow",
+   "name": "Director's Bungalow",
+   "category": "residential",
+   "lnglat": [
+    91.692676,
+    26.192477
+   ],
+   "status": "tagged",
+   "user_added": true,
+   "feature": "g/26.19243,91.69272"
+  },
+  {
+   "id": "view-point",
+   "name": "View Point",
+   "category": "landmark",
+   "lnglat": [
+    91.692184,
+    26.194465
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "water-purification-plant",
+   "name": "Water Purification Plant",
+   "category": "facility",
+   "lnglat": [
+    91.694644,
+    26.185858
+   ],
+   "status": "tagged",
+   "user_added": true,
+   "feature": "way/912248057"
+  },
+  {
+   "id": "hashtag-canteen",
+   "name": "Hashtag Canteen",
+   "category": "food",
+   "lnglat": [
+    91.69292,
+    26.186057
+   ],
+   "status": "tagged",
+   "user_added": true,
+   "feature": "way/912248056"
+  },
+  {
+   "id": "oes-section",
+   "name": "OES Section",
+   "category": "admin",
+   "lnglat": [
+    91.689118,
+    26.185149
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "core-5",
+   "name": "Core 5",
+   "category": "academic",
+   "lnglat": [
+    91.689313,
+    26.185818
+   ],
+   "status": "tagged",
+   "user_added": true,
+   "feature": "way/912248054"
+  },
+  {
+   "id": "core-1",
+   "name": "Core 1",
+   "category": "academic",
+   "lnglat": [
+    91.691483,
+    26.187867
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "core-2",
+   "name": "Core 2",
+   "category": "academic",
+   "lnglat": [
+    91.691501,
+    26.186831
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "core-3",
+   "name": "Core 3",
+   "category": "academic",
+   "lnglat": [
+    91.691515,
+    26.185749
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "core-4",
+   "name": "Core 4",
+   "category": "academic",
+   "lnglat": [
+    91.691477,
+    26.184689
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "jhanda-circle",
+   "name": "Jhanda Circle",
+   "category": "landmark",
+   "lnglat": [
+    91.692989,
+    26.190214
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "mini-auditorium",
+   "name": "Mini Auditorium",
+   "category": "academic",
+   "lnglat": [
+    91.693064,
+    26.190839
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "academic-affairs",
+   "name": "Academic Affairs",
+   "category": "admin",
+   "lnglat": [
+    91.691955,
+    26.190502
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "faculty-affairs",
+   "name": "Faculty Affairs",
+   "category": "admin",
+   "lnglat": [
+    91.691852,
+    26.190598
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "senate-hall",
+   "name": "Senate Hall",
+   "category": "admin",
+   "lnglat": [
+    91.692006,
+    26.190306
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "badminton-court",
+   "name": "Badminton Court",
+   "category": "sports",
+   "lnglat": [
+    91.697862,
+    26.191197
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "basketball-court",
+   "name": "Basketball Court",
+   "category": "sports",
+   "lnglat": [
+    91.698034,
+    26.191863
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "hockey-ground",
+   "name": "Hockey Ground",
+   "category": "sports",
+   "lnglat": [
+    91.696707,
+    26.192036
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "football-ground",
+   "name": "Football Ground",
+   "category": "sports",
+   "lnglat": [
+    91.696936,
+    26.192853
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "tennis-court",
+   "name": "Tennis Court",
+   "category": "sports",
+   "lnglat": [
+    91.695329,
+    26.191932
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "volleyball-court",
+   "name": "Volleyball Court",
+   "category": "sports",
+   "lnglat": [
+    91.697508,
+    26.191862
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "electric-power-station",
+   "name": "Electric Power Station",
+   "category": "facility",
+   "lnglat": [
+    91.699441,
+    26.193252
+   ],
+   "status": "tagged",
+   "user_added": true,
+   "feature": "g/26.19333,91.69941"
+  },
+  {
+   "id": "kv-quarters",
+   "name": "KV Quarters",
+   "category": "residential",
+   "lnglat": [
+    91.695898,
+    26.185209
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "giant-circle",
+   "name": "Giant Circle",
+   "category": "landmark",
+   "lnglat": [
+    91.69152,
+    26.186171
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "d-type-community-hall",
+   "name": "D-Type Community Hall",
+   "category": "facility",
+   "lnglat": [
+    91.690719,
+    26.196497
+   ],
+   "status": "tagged",
+   "user_added": true,
+   "feature": "g/26.19635,91.69084"
+  },
+  {
+   "id": "sacred-island",
+   "name": "Sacred Island",
+   "category": "landmark",
+   "lnglat": [
+    91.694267,
+    26.197453
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "lotus-lake",
+   "name": "Lotus Lake",
+   "category": "nature",
+   "lnglat": [
+    91.693528,
+    26.191289
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "water-lily-lake",
+   "name": "Water Lily Lake",
+   "category": "nature",
+   "lnglat": [
+    91.692398,
+    26.188773
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "stationery-shop-3",
+   "name": "Stationery Shop-3",
+   "category": "services",
+   "lnglat": [
+    91.691566,
+    26.185799
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "stationery-shop-1",
+   "name": "Stationery Shop-1",
+   "category": "services",
+   "lnglat": [
+    91.691532,
+    26.187864
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "stationery-shop-2",
+   "name": "Stationery Shop-2",
+   "category": "services",
+   "lnglat": [
+    91.691544,
+    26.186662
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "l1-l2-l3-l4",
+   "name": "L1, L2, L3, L4",
+   "category": "academic",
+   "lnglat": [
+    91.691374,
+    26.189136
+   ],
+   "status": "tagged",
+   "user_added": true,
+   "feature": "way/684576024"
+  },
+  {
+   "id": "duck-point",
+   "name": "Duck Point",
+   "category": "landmark",
+   "lnglat": [
+    91.694531,
+    26.191551
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "car-cleaning-shop",
+   "name": "Car Cleaning Shop",
+   "category": "services",
+   "lnglat": [
+    91.696818,
+    26.196381
+   ],
+   "status": "tagged",
+   "user_added": true,
+   "feature": "draw/mv0i30yu"
+  },
+  {
+   "id": "kv-circle",
+   "name": "KV Circle",
+   "category": "landmark",
+   "lnglat": [
+    91.695716,
+    26.183949
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "core-5-circle",
+   "name": "Core-5 Circle",
+   "category": "landmark",
+   "lnglat": [
+    91.689881,
+    26.186209
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "python-circle",
+   "name": "Python Circle",
+   "category": "landmark",
+   "lnglat": [
+    91.691542,
+    26.191609
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "b-type-community-hall",
+   "name": "B-Type Community Hall",
+   "category": "facility",
+   "lnglat": [
+    91.694756,
+    26.200005
+   ],
+   "status": "tagged",
+   "user_added": true,
+   "feature": "g/26.19994,91.69488"
+  },
+  {
+   "id": "cricket-ground",
+   "name": "Cricket Ground",
+   "category": "sports",
+   "lnglat": [
+    91.696764,
+    26.190534
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "user-mv14xrey",
+   "name": "Tea-n-We (TnV)",
+   "category": "facility",
+   "description": "\"Tea and We\" - A sitting place to ideate over tea.",
+   "lnglat": [
+    91.691533,
+    26.186488
+   ],
+   "status": "tagged",
+   "user_added": true,
+   "feature": "g/26.18646,91.69156"
+  },
+  {
+   "id": "user-mv155py1",
+   "name": "Sit-n-Talk (SnT)",
+   "category": "facility",
+   "description": "Read as \"Sit and Talk\", a place to sit and talk over a cup of tea/coffee",
+   "lnglat": [
+    91.691478,
+    26.185964
+   ],
+   "status": "tagged",
+   "user_added": true,
+   "feature": "g/26.18592,91.69156"
+  },
+  {
+   "id": "user-mv1570rw",
+   "name": "Roi",
+   "category": "landmark",
+   "description": "Read as \"Ring of Ideas\" (Roi). A place to sit and discuss ideas under the sun.",
+   "lnglat": [
+    91.691484,
+    26.187168
+   ],
+   "status": "tagged",
+   "user_added": true
+  },
+  {
+   "id": "user-mv15bnd5",
+   "name": "Koi",
+   "category": "landmark",
+   "description": "Read as \"Circle of Ideas\" (Koi), a place to sit and discuss ideas under the sun.",
+   "lnglat": [
+    91.691494,
+    26.185219
+   ],
+   "status": "tagged",
+   "user_added": true
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IITG Campus uMap</title>
+  <meta name="description" content="An unofficial, interactive map of the IIT Guwahati campus.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <div id="map"></div>
+
+  <header class="panel brand">
+    <h1>IITG <span>Campus <i class="u" title="u = unofficial">u</i>Map</span></h1>
+    <p>Hills, lakes &amp; the Brahmaputra · <em>u for unofficial</em></p>
+    <p class="credit">Designed by <a href="https://spinlabiitg.github.io/" target="_blank" rel="noopener">SPIN Lab</a>, Mehta Family School of DSAI, IIT Guwahati</p>
+  </header>
+
+  <div class="panel controls">
+    <button id="toggle-walk" aria-pressed="false" title="Walking times">🚶 Walk</button>
+    <button id="toggle-seasons" aria-pressed="false" title="Seasons: climate and daylight by month">🌦 Seasons</button>
+    <button id="toggle-3d" aria-pressed="true">3D</button>
+    <button id="toggle-terrain" aria-pressed="false" title="3D terrain (hills exaggerated ×2.5)">⛰ Terrain</button>
+    <button id="toggle-sat" aria-pressed="false">Satellite</button>
+    <button id="toggle-theme" aria-label="Toggle dark mode">☾</button>
+    <a class="btnlink" href="poster.html" title="Printable poster (PNG / PDF)">🖨 Poster</a>
+    <a class="btnlink" href="poster.html?theme=cartoon" title="A doodled, cartoon version of the map (PNG / PDF)">🎨 Cartoon</a>
+  </div>
+
+  <div class="panel legend" id="legend"></div>
+
+  <footer class="attrib">
+    <strong>Use with care:</strong> a line on this map does not guarantee a usable path; follow signs, gates and your own judgement.
+    Not an official IIT Guwahati map. Designed by SPIN Lab, Mehta Family School of DSAI, IIT Guwahati.
+    Data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors (ODbL),
+    building footprints © <a href="https://sites.research.google/open-buildings/">Google Open Buildings</a> (CC BY 4.0) &amp; <a href="https://github.com/microsoft/GlobalMLBuildingFootprints">Microsoft</a> (ODbL),
+    satellite imagery © Esri, Maxar, Earthstar Geographics, and the GIS User Community,
+    greenness: contains modified Copernicus Sentinel data (2020–2024) via Microsoft Planetary Computer,
+    climate: <a href="https://www.chc.ucsb.edu/data/chirps">CHIRPS</a> rainfall &amp; ERA5 via <a href="https://open-meteo.com/">Open-Meteo</a> (CC BY 4.0; contains modified Copernicus Climate Change Service information, 1995–2024),
+    elevation: <a href="https://spacedata.copernicus.eu/collections/copernicus-digital-elevation-model">Copernicus DEM GLO-30</a> (© DLR e.V., © Airbus Defence and Space; provided under COPERNICUS by the EU and ESA).
+  </footer>
+
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
